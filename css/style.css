@@ -127,13 +127,20 @@ a {
     margin-bottom: 100px;
 }
 
-header {
-    padding: 2em 0;
+.navbar-style{
+    min-height: 100vh;
 }
+.navbar-style button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+}
+
 
 section{
     min-height: 100vh;
-    margin-top: 100px;
 }
 
 .button-menu{
@@ -160,7 +167,7 @@ a.link-foto-menu:hover{
     color: #fff;
 }
 .home-slider{
-    margin-bottom: 120px;
+    justify-content: center;
 }
 
 .home-slider p{
@@ -211,6 +218,37 @@ a.link-foto-menu:hover{
     font-size: 28px;
     margin-top: 15px;
 }
+
+.list-socia-midia-header{
+    margin-bottom: 0;
+}
+
+.list-socia-midia-header li{
+    list-style: none;
+    display: inline-block;
+}
+
+.list-socia-midia-header li a{
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    background-color:#000;
+
+}
+
+.list-socia-midia-header li a i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.header-icons-center{
+    justify-content: center;
+}
+
 
 .services i {
     font-size: 62px;

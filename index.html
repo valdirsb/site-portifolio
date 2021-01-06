@@ -19,7 +19,10 @@
   </head>
   <body>
     
-      <nav class="collapse navbar-collapse" id="navbarNav">
+      <nav class="collapse navbar-collapse navbar-style" id="navbarNav">
+        <button class="button-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="span-button-menu">X</span>
+        </button>
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -40,7 +43,7 @@
 
       <div class="page">
 
-        <!-- HEADER -->
+        <!-- HEADER 
         <header>
           <div class="container">
             <div class="row">
@@ -56,15 +59,41 @@
             </div>
           </div>
         </header>
+        -->
+        
+        <!-- 
+        <header>
+          <div class="container-fluid pt-1" style="background-color: rgba(47,137,252,0.8);">
+            <div class="row">
+              <div class="col-sm-6 ">
+                <a class="link-foto-menu" href="#">
+                  <img src="images/valdir.jpg" alt="" width="50" height="50" class="img-nav">
+                  <span>Valdir Barbosa</span>
+                </a>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-md-end header-icons-center">
+                <ul class="list-socia-midia-header">
+                  <li> <a href=""><i class="fab fa-facebook-f"></i></a> </li>
+                  <li> <a href=""><i class="fab fa-linkedin-in"></i></a> </li>
+                  <li> <a href=""><i class="fab fa-instagram"></i></a> </li>
+                  <li> <a href=""><i class="fab fa-github"></i></a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+        -->
 
         <!-- HOME SLIDE -->
         <section class="home-slider" >
-            <div class="d-flex flex-column justify-content-center align-items-center" style="height: 450px;">
+            <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
               <p>Olá, meu nome é</p>
               <h1>Valdir Barbosa</h1>
             </div>
-          
         </section>
+
+        <!-- SOBRE -->
+        <section>
           <div class="container">
             <div class="row">
               <div class="col-md-4 about-img">
@@ -73,10 +102,10 @@
               <div class="col-md-2">
                 <div></div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 p-4">
                 <h2>Valdir Barbosa</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam asperiores facere tempore itaque laborum, minima ea explicabo corrupti voluptates eaque molestiae atque perferendis inventore amet quasi architecto totam maxime soluta!</p>
-                <a href="#">ver mais</a>
+                <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam asperiores facere tempore itaque laborum, minima ea explicabo corrupti voluptates eaque molestiae atque perferendis inventore amet quasi architecto totam maxime soluta!</p>
+                <a href="#">Veja meu curriculo</a>
                 <ul class="list-socia-midia mt-5">
                   <li> <a href=""><i class="fab fa-facebook-f"></i></a> </li>
                   <li> <a href=""><i class="fab fa-linkedin-in"></i></a> </li>
@@ -87,9 +116,11 @@
               </div>
             </div>
           </div>
+        </section>
+          
           
         <!-- SERVIÇOS -->
-        <section>
+        <section class="mt-5">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-md-7 text-center thick-font">
@@ -99,17 +130,17 @@
               
             </div>
             <div class="row ">
-              <div class="col-md-4 text-center services">
+              <div class="col-md-4 mb-5 p-4  text-center services">
                 <i class="fab fa-instagram"></i>
                 <h3>Web-design</h3>
                 <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
               </div>
-              <div class="col-md-4 text-center services">
+              <div class="col-md-4 mb-5 p-4  text-center services">
                 <i class="fab fa-instagram"></i>
                 <h3>Web-design</h3>
                 <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
               </div>
-              <div class="col-md-4 text-center services">
+              <div class="col-md-4 mb-5 p-4  text-center services">
                 <i class="fab fa-instagram"></i>
                 <h3>Web-design</h3>
                 <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
@@ -129,7 +160,7 @@
               </div>
               
             </div>
-            <div class="row my-5">
+            <div class="row px-4 my-5">
               <div class="col-md-6">
                 <img src="images/valdir.jpg" class="img-fluid" alt="">
               </div>
@@ -141,7 +172,7 @@
               </div>
             </div>
 
-            <div class="row my-5">
+            <div class="row px-4 my-5">
               <div class="col-md-6 order-last">
                 <img src="images/valdir.jpg" class="img-fluid" alt="">
               </div>
@@ -153,7 +184,7 @@
               </div>
             </div>
 
-            <div class="row my-5">
+            <div class="row px-4 my-5">
               <div class="col-md-6">
                 <img src="images/valdir.jpg" class="img-fluid" alt="">
               </div>
